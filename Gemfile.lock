@@ -99,6 +99,8 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (= 0.3.0)
+    paranoia (2.1.5)
+      activerecord (~> 4.0)
     puma (3.4.0)
     rack (1.6.4)
     rack-test (0.6.3)
@@ -179,6 +181,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   paperclip
+  paranoia
   puma
   rails (= 4.2.1)
   sass-rails (~> 5.0)
